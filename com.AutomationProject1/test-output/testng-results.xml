@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="7" passed="6" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[register test script executed sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[register test script executed sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[register test script executed sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[register test script executed sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[register test script executed sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[login test script executed sucessfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-12-17T06:11:56Z" name="Default suite" finished-at="2024-12-17T06:11:56Z" duration-ms="45">
+    <groups>
+    </groups>
+    <test started-at="2024-12-17T06:11:56Z" name="Default test" finished-at="2024-12-17T06:11:56Z" duration-ms="45">
+      <class name="LearningTestNG.FirstTestNg">
+        <test-method signature="register()[pri:0, instance:LearningTestNG.FirstTestNg@1869fbd2]" started-at="2024-12-17T06:11:56Z" name="register" finished-at="2024-12-17T06:11:56Z" duration-ms="10" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[register test script executed sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method signature="register()[pri:0, instance:LearningTestNG.FirstTestNg@1869fbd2]" started-at="2024-12-17T06:11:56Z" name="register" finished-at="2024-12-17T06:11:56Z" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[register test script executed sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method signature="register()[pri:0, instance:LearningTestNG.FirstTestNg@1869fbd2]" started-at="2024-12-17T06:11:56Z" name="register" finished-at="2024-12-17T06:11:56Z" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[register test script executed sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method signature="register()[pri:0, instance:LearningTestNG.FirstTestNg@1869fbd2]" started-at="2024-12-17T06:11:56Z" name="register" finished-at="2024-12-17T06:11:56Z" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[register test script executed sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method signature="register()[pri:0, instance:LearningTestNG.FirstTestNg@1869fbd2]" started-at="2024-12-17T06:11:56Z" name="register" finished-at="2024-12-17T06:11:56Z" duration-ms="4" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[register test script executed sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method signature="login()[pri:0, instance:LearningTestNG.FirstTestNg@1869fbd2]" started-at="2024-12-17T06:11:56Z" name="login" finished-at="2024-12-17T06:11:56Z" depends-on-methods="LearningTestNG.FirstTestNg.register" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[login test script executed sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- LearningTestNG.FirstTestNg -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
