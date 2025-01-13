@@ -1,0 +1,50 @@
+package Array_Programs;
+
+public class FrequencyOfAnyRange {
+
+	public static void main(String[] args) {
+		int[] a = { 10, 20, 10, 20, 10, 30, 22, 22, 11, 44, -4, -1 };
+		getFrequency(a);
+	}
+
+	public static void getFrequency(int[] a) {
+		int n = a.length;
+		for (int i = 0; i < n; i++) {
+			int count = 1;
+			for (int j = i + 1; j < n; j++) {
+				if (a[i] == a[j]) {
+					count++;
+					a[j] = a[n - 1];
+					n--;
+					j--;
+				}
+			}
+			System.out.println(a[i] + " is: " + count + " times ");
+		}
+
+	}
+
+}
+
+//	public static void main(String[] args) {
+//		int[] a= {10,20,10,20,10,30,22,22,11,44,-4,-1};
+//		getFrequency(a);
+//	}
+//	public static void getFrequency(int[] a) {
+//		int n=a.length;
+//		for(int i=0;i<n;i++) {
+//			int count=1;
+//			for(int j=i+1;j<n;j++) {
+//				if(a[i]==a[j])
+//					count++;
+//					a[j]=a[n-1];
+//				n--;
+//				j--;
+//			}
+//			//System.out.println(i+"is occurs "+ a[i]+" time               s ");
+//			System.out.println(a[i]+" is "+count+" times ");
+//		}
+//		
+//	}
+//		
+//		
