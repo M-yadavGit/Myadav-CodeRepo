@@ -18,7 +18,7 @@ public class RegisterTest extends BaseTest {
 	public void registerTestScript() throws EncryptedDocumentException, IOException {
 		Flib lib=new Flib();
 		String firstName = lib.getDataFromExcelSheet(EXCEL_PATH,REGSHEET,1,0);
-		String lasttName = lib.getDataFromExcelSheet(EXCEL_PATH,REGSHEET,1,1);
+		String lastName = lib.getDataFromExcelSheet(EXCEL_PATH,REGSHEET,1,1);
 		String password = lib.getDataFromExcelSheet(EXCEL_PATH,REGSHEET,1,3);
 		//String email = lib.getDataFromExcelSHeet(EXCEL_PATH,REGSHEET,1,2);
 		//click on register link
@@ -26,6 +26,6 @@ public class RegisterTest extends BaseTest {
 		wp.getRegisterLink().click();
 		//perform registration process
 		RegisterPage rp=new RegisterPage(driver);
-		rp.toRegisterIntoDemoWeb(firstName, lasttName, email, password);
+		rp.toRegisterIntoDemoWeb(firstName, lastName, email, password);
 	}
 }

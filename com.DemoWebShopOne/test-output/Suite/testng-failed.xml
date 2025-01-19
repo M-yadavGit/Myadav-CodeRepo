@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="RT"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.DemoWebShopOne.TestScripts.RegisterTest">
+        <methods>
+          <include name="toCloseDatabase"/>
+          <include name="tearDown"/>
+          <include name="setupt"/>
+          <include name="toRegisterIntoDemoWebshop"/>
+          <include name="toConnectServer"/>
+          <include name="toConnectDatabase"/>
+          <include name="toCloseServer"/>
+        </methods>
+      </class> <!-- com.DemoWebShopOne.TestScripts.RegisterTest -->
+      <class name="com.DemoWebShopOne.TestScripts.LoginTest">
+        <methods>
+          <include name="toCloseDatabase"/>
+          <include name="tearDown"/>
+          <include name="loginIntoDemo"/>
+          <include name="setupt"/>
+          <include name="toConnectServer"/>
+          <include name="toConnectDatabase"/>
+          <include name="toCloseServer"/>
+        </methods>
+      </class> <!-- com.DemoWebShopOne.TestScripts.LoginTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

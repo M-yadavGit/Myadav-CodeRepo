@@ -2,7 +2,7 @@ package TekPyramidPrograms;
 
 public class Revers1 {
 	public static void main(String[] args) {
-		String s1="Hello Java";//olleh avaj
+		String s1="Hello Java this is my interview question";//olleh avaj
 		revWord(s1);
 	}
 	public static void revWord(String s1) {

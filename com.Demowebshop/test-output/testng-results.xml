@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="10" total="17" passed="7" failed="0" skipped="0">
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[=========Server Connected Successfully=========]]>
     </line>
     <line>
       <![CDATA[========Database Connected Successfully=========]]>
+    </line>
+    <line>
+      <![CDATA[========Database Connected Successfully=========]]>
+    </line>
+    <line>
+      <![CDATA[========Database Connected Successfully=========]]>
+    </line>
+    <line>
+      <![CDATA[========Launching chrome Browser==========]]>
+    </line>
+    <line>
+      <![CDATA[========Launching chrome Browser==========]]>
     </line>
     <line>
       <![CDATA[========Launching chrome Browser==========]]>
@@ -17,18 +29,48 @@
       <![CDATA[============Database Closed Successfully]]>
     </line>
     <line>
+      <![CDATA[Browser closed successfully]]>
+    </line>
+    <line>
+      <![CDATA[============Database Closed Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed successfully]]>
+    </line>
+    <line>
+      <![CDATA[============Database Closed Successfully]]>
+    </line>
+    <line>
       <![CDATA[===========Server Closed successfully====]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-01-07T14:59:20 IST" name="Suite" finished-at="2025-01-07T14:59:50 IST" duration-ms="29800">
+  <suite started-at="2025-01-17T22:58:09 IST" name="Suite" finished-at="2025-01-17T22:58:31 IST" duration-ms="22582">
     <groups>
+      <group name="ST">
+        <method signature="RegisterTest.registerTestScript()[pri:0, instance:com.Demowebshop.TestScript.RegisterTest@791f145a]" name="registerTestScript" class="com.Demowebshop.TestScript.RegisterTest"/>
+        <method signature="ValidLoginTest.loginTestScript()[pri:0, instance:com.Demowebshop.TestScript.ValidLoginTest@543295b0]" name="loginTestScript" class="com.Demowebshop.TestScript.ValidLoginTest"/>
+      </group> <!-- ST -->
+      <group name="RT">
+        <method signature="RegisterTest.registerTestScript()[pri:0, instance:com.Demowebshop.TestScript.RegisterTest@791f145a]" name="registerTestScript" class="com.Demowebshop.TestScript.RegisterTest"/>
+        <method signature="ValidLoginTest.loginTestScript()[pri:0, instance:com.Demowebshop.TestScript.ValidLoginTest@543295b0]" name="loginTestScript" class="com.Demowebshop.TestScript.ValidLoginTest"/>
+      </group> <!-- RT -->
+      <group name="IT">
+        <method signature="ValidLoginTest.loginTestScript()[pri:0, instance:com.Demowebshop.TestScript.ValidLoginTest@543295b0]" name="loginTestScript" class="com.Demowebshop.TestScript.ValidLoginTest"/>
+      </group> <!-- IT -->
       <group name="FT">
-        <method signature="InvalidLoginTest.invalidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.Demowebshop.TestScript.InvalidLoginTest@6d4d66d2]" name="invalidLoginTest" class="com.Demowebshop.TestScript.InvalidLoginTest"/>
+        <method signature="InvalidLoginTest.invalidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.Demowebshop.TestScript.InvalidLoginTest@712625fd]" name="invalidLoginTest" class="com.Demowebshop.TestScript.InvalidLoginTest"/>
       </group> <!-- FT -->
     </groups>
-    <test started-at="2025-01-07T14:59:20 IST" name="Test" finished-at="2025-01-07T14:59:50 IST" duration-ms="29800">
-      <class name="com.Demowebshop.TestScript.InvalidLoginTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.Demowebshop.TestScript.InvalidLoginTest@6d4d66d2]" started-at="2025-01-07T14:59:20 IST" name="setUp" finished-at="2025-01-07T14:59:29 IST" duration-ms="8932" status="PASS">
+    <test started-at="2025-01-17T22:58:09 IST" name="Test2" finished-at="2025-01-17T22:58:22 IST" duration-ms="13052">
+      <class name="com.Demowebshop.TestScript.ValidLoginTest">
+        <test-method is-config="true" signature="toConnectDatabase()[pri:0, instance:com.Demowebshop.TestScript.ValidLoginTest@543295b0]" started-at="2025-01-17T22:58:09 IST" name="toConnectDatabase" finished-at="2025-01-17T22:58:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[========Database Connected Successfully=========]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toConnectDatabase -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.Demowebshop.TestScript.ValidLoginTest@543295b0]" started-at="2025-01-17T22:58:09 IST" name="setUp" finished-at="2025-01-17T22:58:17 IST" duration-ms="7894" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -42,7 +84,100 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="invalidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.Demowebshop.TestScript.InvalidLoginTest@6d4d66d2]" started-at="2025-01-07T14:59:31 IST" name="invalidLoginTest" data-provider="InvalidData" finished-at="2025-01-07T14:59:34 IST" duration-ms="2617" status="PASS">
+        <test-method signature="loginTestScript()[pri:0, instance:com.Demowebshop.TestScript.ValidLoginTest@543295b0]" started-at="2025-01-17T22:58:17 IST" name="loginTestScript" finished-at="2025-01-17T22:58:21 IST" duration-ms="4654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestScript -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Demowebshop.TestScript.ValidLoginTest@543295b0]" started-at="2025-01-17T22:58:22 IST" name="tearDown" finished-at="2025-01-17T22:58:22 IST" duration-ms="449" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser closed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="toCloseDatabase()[pri:0, instance:com.Demowebshop.TestScript.ValidLoginTest@543295b0]" started-at="2025-01-17T22:58:22 IST" name="toCloseDatabase" finished-at="2025-01-17T22:58:22 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[============Database Closed Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toCloseDatabase -->
+      </class> <!-- com.Demowebshop.TestScript.ValidLoginTest -->
+    </test> <!-- Test2 -->
+    <test started-at="2025-01-17T22:58:09 IST" name="Test1" finished-at="2025-01-17T22:58:23 IST" duration-ms="14199">
+      <class name="com.Demowebshop.TestScript.RegisterTest">
+        <test-method is-config="true" signature="toConnectDatabase()[pri:0, instance:com.Demowebshop.TestScript.RegisterTest@791f145a]" started-at="2025-01-17T22:58:09 IST" name="toConnectDatabase" finished-at="2025-01-17T22:58:09 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[========Database Connected Successfully=========]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toConnectDatabase -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.Demowebshop.TestScript.RegisterTest@791f145a]" started-at="2025-01-17T22:58:09 IST" name="setUp" finished-at="2025-01-17T22:58:15 IST" duration-ms="5954" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[========Launching chrome Browser==========]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="registerTestScript()[pri:0, instance:com.Demowebshop.TestScript.RegisterTest@791f145a]" started-at="2025-01-17T22:58:15 IST" name="registerTestScript" finished-at="2025-01-17T22:58:23 IST" duration-ms="7951" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTestScript -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Demowebshop.TestScript.RegisterTest@791f145a]" started-at="2025-01-17T22:58:23 IST" name="tearDown" finished-at="2025-01-17T22:58:23 IST" duration-ms="210" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser closed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="toCloseDatabase()[pri:0, instance:com.Demowebshop.TestScript.RegisterTest@791f145a]" started-at="2025-01-17T22:58:23 IST" name="toCloseDatabase" finished-at="2025-01-17T22:58:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[============Database Closed Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toCloseDatabase -->
+      </class> <!-- com.Demowebshop.TestScript.RegisterTest -->
+    </test> <!-- Test1 -->
+    <test started-at="2025-01-17T22:58:09 IST" name="Test3" finished-at="2025-01-17T22:58:31 IST" duration-ms="22582">
+      <class name="com.Demowebshop.TestScript.InvalidLoginTest">
+        <test-method is-config="true" signature="toConnectServer()[pri:0, instance:com.Demowebshop.TestScript.InvalidLoginTest@712625fd]" started-at="2025-01-17T22:58:09 IST" name="toConnectServer" finished-at="2025-01-17T22:58:09 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[=========Server Connected Successfully=========]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toConnectServer -->
+        <test-method is-config="true" signature="toConnectDatabase()[pri:0, instance:com.Demowebshop.TestScript.InvalidLoginTest@712625fd]" started-at="2025-01-17T22:58:09 IST" name="toConnectDatabase" finished-at="2025-01-17T22:58:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[========Database Connected Successfully=========]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toConnectDatabase -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.Demowebshop.TestScript.InvalidLoginTest@712625fd]" started-at="2025-01-17T22:58:09 IST" name="setUp" finished-at="2025-01-17T22:58:15 IST" duration-ms="6010" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[========Launching chrome Browser==========]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.Demowebshop.TestScript.InvalidLoginTest@712625fd]" started-at="2025-01-17T22:58:18 IST" name="invalidLoginTest" data-provider="InvalidData" finished-at="2025-01-17T22:58:21 IST" duration-ms="2875" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -58,7 +193,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLoginTest -->
-        <test-method signature="invalidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.Demowebshop.TestScript.InvalidLoginTest@6d4d66d2]" started-at="2025-01-07T14:59:34 IST" name="invalidLoginTest" data-provider="InvalidData" finished-at="2025-01-07T14:59:37 IST" duration-ms="2465" status="PASS">
+        <test-method signature="invalidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.Demowebshop.TestScript.InvalidLoginTest@712625fd]" started-at="2025-01-17T22:58:21 IST" name="invalidLoginTest" data-provider="InvalidData" finished-at="2025-01-17T22:58:23 IST" duration-ms="2125" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -74,7 +209,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLoginTest -->
-        <test-method signature="invalidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.Demowebshop.TestScript.InvalidLoginTest@6d4d66d2]" started-at="2025-01-07T14:59:37 IST" name="invalidLoginTest" data-provider="InvalidData" finished-at="2025-01-07T14:59:39 IST" duration-ms="2397" status="PASS">
+        <test-method signature="invalidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.Demowebshop.TestScript.InvalidLoginTest@712625fd]" started-at="2025-01-17T22:58:23 IST" name="invalidLoginTest" data-provider="InvalidData" finished-at="2025-01-17T22:58:25 IST" duration-ms="1272" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -90,7 +225,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLoginTest -->
-        <test-method signature="invalidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.Demowebshop.TestScript.InvalidLoginTest@6d4d66d2]" started-at="2025-01-07T14:59:39 IST" name="invalidLoginTest" data-provider="InvalidData" finished-at="2025-01-07T14:59:41 IST" duration-ms="2523" status="PASS">
+        <test-method signature="invalidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.Demowebshop.TestScript.InvalidLoginTest@712625fd]" started-at="2025-01-17T22:58:25 IST" name="invalidLoginTest" data-provider="InvalidData" finished-at="2025-01-17T22:58:26 IST" duration-ms="1426" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -106,7 +241,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLoginTest -->
-        <test-method signature="invalidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.Demowebshop.TestScript.InvalidLoginTest@6d4d66d2]" started-at="2025-01-07T14:59:41 IST" name="invalidLoginTest" data-provider="InvalidData" finished-at="2025-01-07T14:59:44 IST" duration-ms="2170" status="PASS">
+        <test-method signature="invalidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.Demowebshop.TestScript.InvalidLoginTest@712625fd]" started-at="2025-01-17T22:58:26 IST" name="invalidLoginTest" data-provider="InvalidData" finished-at="2025-01-17T22:58:27 IST" duration-ms="1362" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -122,7 +257,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLoginTest -->
-        <test-method signature="invalidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.Demowebshop.TestScript.InvalidLoginTest@6d4d66d2]" started-at="2025-01-07T14:59:44 IST" name="invalidLoginTest" data-provider="InvalidData" finished-at="2025-01-07T14:59:47 IST" duration-ms="2929" status="PASS">
+        <test-method signature="invalidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.Demowebshop.TestScript.InvalidLoginTest@712625fd]" started-at="2025-01-17T22:58:27 IST" name="invalidLoginTest" data-provider="InvalidData" finished-at="2025-01-17T22:58:29 IST" duration-ms="1430" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -138,7 +273,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLoginTest -->
-        <test-method signature="invalidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.Demowebshop.TestScript.InvalidLoginTest@6d4d66d2]" started-at="2025-01-07T14:59:47 IST" name="invalidLoginTest" data-provider="InvalidData" finished-at="2025-01-07T14:59:49 IST" duration-ms="2284" status="PASS">
+        <test-method signature="invalidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.Demowebshop.TestScript.InvalidLoginTest@712625fd]" started-at="2025-01-17T22:58:29 IST" name="invalidLoginTest" data-provider="InvalidData" finished-at="2025-01-17T22:58:31 IST" duration-ms="1642" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -154,44 +289,28 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Demowebshop.TestScript.InvalidLoginTest@6d4d66d2]" started-at="2025-01-07T14:59:49 IST" name="tearDown" finished-at="2025-01-07T14:59:50 IST" duration-ms="874" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Demowebshop.TestScript.InvalidLoginTest@712625fd]" started-at="2025-01-17T22:58:31 IST" name="tearDown" finished-at="2025-01-17T22:58:31 IST" duration-ms="972" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser closed successfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.Demowebshop.TestScript.InvalidLoginTest -->
-      <class name="com.Demowebshop.TestScript.RegisterTest">
-        <test-method is-config="true" signature="toConnectServer()[pri:0, instance:com.Demowebshop.TestScript.RegisterTest@2a7f1f10]" started-at="2025-01-07T14:59:20 IST" name="toConnectServer" finished-at="2025-01-07T14:59:20 IST" duration-ms="27" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[=========Server Connected Successfully=========]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- toConnectServer -->
-        <test-method is-config="true" signature="toConnectDatabase()[pri:0, instance:com.Demowebshop.TestScript.RegisterTest@2a7f1f10]" started-at="2025-01-07T14:59:20 IST" name="toConnectDatabase" finished-at="2025-01-07T14:59:20 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[========Database Connected Successfully=========]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- toConnectDatabase -->
-        <test-method is-config="true" signature="toCloseDatabase()[pri:0, instance:com.Demowebshop.TestScript.RegisterTest@2a7f1f10]" started-at="2025-01-07T14:59:50 IST" name="toCloseDatabase" finished-at="2025-01-07T14:59:50 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="toCloseDatabase()[pri:0, instance:com.Demowebshop.TestScript.InvalidLoginTest@712625fd]" started-at="2025-01-17T22:58:31 IST" name="toCloseDatabase" finished-at="2025-01-17T22:58:31 IST" duration-ms="0" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[============Database Closed Successfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- toCloseDatabase -->
-        <test-method is-config="true" signature="toCloseServer()[pri:0, instance:com.Demowebshop.TestScript.RegisterTest@2a7f1f10]" started-at="2025-01-07T14:59:50 IST" name="toCloseServer" finished-at="2025-01-07T14:59:50 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="toCloseServer()[pri:0, instance:com.Demowebshop.TestScript.InvalidLoginTest@712625fd]" started-at="2025-01-17T22:58:32 IST" name="toCloseServer" finished-at="2025-01-17T22:58:32 IST" duration-ms="2" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[===========Server Closed successfully====]]>
             </line>
           </reporter-output>
         </test-method> <!-- toCloseServer -->
-      </class> <!-- com.Demowebshop.TestScript.RegisterTest -->
-    </test> <!-- Test -->
+      </class> <!-- com.Demowebshop.TestScript.InvalidLoginTest -->
+    </test> <!-- Test3 -->
   </suite> <!-- Suite -->
 </testng-results>

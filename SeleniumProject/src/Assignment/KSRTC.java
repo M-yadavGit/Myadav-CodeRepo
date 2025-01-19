@@ -20,6 +20,7 @@ public class KSRTC {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get("https://www.ksrtc.in/");
+		driver.findElement(By.xpath("//label[@for='radio_roundtrip']")).click();
 		driver.findElement(By.xpath("//span[text()='Select Departure City']")).click();
 		driver.findElement(By.xpath("//span[text()='Select Departure City']/ancestor::a/following-sibling::div/descendant::input[@placeholder='Search Your City Name']")).sendKeys("adoni",Keys.ENTER);
 		//driver.findElement(By.xpath("//em[text()='Adoni']")).click();

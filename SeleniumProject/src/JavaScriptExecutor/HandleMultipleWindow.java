@@ -23,7 +23,7 @@ public class HandleMultipleWindow {
 			System.out.println(sessionid1);
 			
 			Set<String> allsessionid = driver.getWindowHandles();
-			System.out.println(allsessionid);
+			//System.out.println(allsessionid);
 			for(String id:allsessionid) {
 				driver.switchTo().window(id);
 				if(driver.getTitle().equalsIgnoreCase("Apple iPhone 15 (Black, 128 GB)"));
