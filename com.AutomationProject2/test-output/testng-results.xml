@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[TestExecuted successfully: ]]>
+    </line>
+    <line>
+      <![CDATA[TestExecuted successfully: ]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-01-08T15:46:02 IST" name="Default suite" finished-at="2025-01-08T15:46:02 IST" duration-ms="86">
+    <groups>
+    </groups>
+    <test started-at="2025-01-08T15:46:02 IST" name="Default test" finished-at="2025-01-08T15:46:02 IST" duration-ms="86">
+      <class name="LearningTestNg.FirstTestNgScript">
+        <test-method signature="register()[pri:-1, instance:LearningTestNg.FirstTestNgScript@5b03b9fe]" started-at="2025-01-08T15:46:02 IST" name="register" finished-at="2025-01-08T15:46:02 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TestExecuted successfully: ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method signature="login()[pri:1, instance:LearningTestNg.FirstTestNgScript@5b03b9fe]" started-at="2025-01-08T15:46:02 IST" name="login" finished-at="2025-01-08T15:46:02 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TestExecuted successfully: ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="AddToCart()[pri:4, instance:LearningTestNg.FirstTestNgScript@5b03b9fe]" started-at="2025-01-08T15:46:02 IST" name="AddToCart" finished-at="2025-01-08T15:46:02 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddToCart -->
+      </class> <!-- LearningTestNg.FirstTestNgScript -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
